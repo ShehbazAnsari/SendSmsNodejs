@@ -1,0 +1,13 @@
+
+body{
+    background-image: url('../assets/smsbackgroundimage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}

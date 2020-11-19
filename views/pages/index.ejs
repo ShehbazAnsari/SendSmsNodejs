@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Send SMS from Nodejs" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Send Text Messages</title>
+</head>
+
+<body>
+    <div class="center-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="card bg-transparent">
+                        <div class="card-body">
+                            <h2 class="card-title text-center text-dark mb-4 mt-3">Node.js SMS App</h2>
+                            <input type="tel" name="number" id="number" placeholder="Enter Mobile Number..."
+                                class="form-control mb-4 bg-transparent text-light">
+                            <input type="text" name="msg" id="msg" placeholder="Enter Text Message..."
+                                class="form-control mb-4 bg-transparent text-light">
+                            <div class="text-center">
+                                <input type="button" id="button" class="btn btn-outline-light mb-3   "
+                                    value="Send Text">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="response lead text-white text-center mt-5"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

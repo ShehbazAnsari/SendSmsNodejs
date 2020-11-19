@@ -1,0 +1,26 @@
+{
+  "name": "sendsms",
+  "version": "1.0.0",
+  "description": "Send SMS from Node",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Shehbaz Ansari",
+  "license": "MIT",
+  "dependencies": {
+    "alphanumericidy": "^1.0.4",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nexmo": "^2.9.1",
+    "socket.io": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
